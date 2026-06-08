@@ -1,6 +1,6 @@
 # PyTorch Image Classifier
 
-Image classification using PyTorch and pretrained ResNet models.
+Image classification using PyTorch and pretrained ResNet.
 
 ## Features
 - Transfer learning with ResNet50
@@ -11,12 +11,8 @@ Image classification using PyTorch and pretrained ResNet models.
 
 ## Training
 ```bash
-python train.py --data ./data --epochs 50 --batch-size 32
+python train.py --data ./data --epochs 50
 ```
-
-## Results
-- Accuracy: 94.5% on CIFAR-10
-- Inference: ~15ms per image (GPU)
 
 ## License
 MIT
